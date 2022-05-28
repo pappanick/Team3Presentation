@@ -1,0 +1,75 @@
+body {
+    background-color: whitesmoke;
+}
+
+h1 {
+    color: rgb(23, 161, 165);
+    text-align: center;
+}
+
+p {
+    color: rgb(0, 100, 104);
+    font-family: verdana;
+    font-size: 20px;
+    padding: 10px;
+}
+
+canvas {
+    width: 100%;
+    max-width: 700px;
+}
+
+
+/* custom class for background */
+
+.navbar-customclass {
+    background-color: rgb(0, 100, 104);
+}
+
+
+/* changing brand text color*/
+
+.navbar-customclass .navbar-brand,
+.navbar-customclass .navbar-text {
+    /* color: rgb(23, 161, 165); */
+    color: aliceblue;
+}
+
+
+/* navigation link text color */
+
+.navbar-customclass .navbar-nav .nav-link {
+    color: rgb(23, 161, 165);
+}
+
+.navbar-customclass .navbar-nav .nav-item.active .nav-link,
+.navbar-customclass .nav-item .nav-link:active,
+.navbar-customclass .nav-item .nav-link:focus,
+.navbar-customclass .nav-item:hover .nav-link {
+    background-color: rgb(0, 100, 104);
+}
+
+
+/* navigation links anchor hover and active styles */
+
+.navbar-customclass .nav-item.active .nav-link,
+.navbar-customclass .nav-item:hover .nav-link {
+    color: rgb(23, 161, 165);
+}
+
+.carousel-indicators {
+    left: 0;
+    top: auto;
+    bottom: -70px;
+}
+
+.carousel-indicators li {
+    background: #000;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+}
+
+.carousel-indicators .active {
+    background: #fff;
+}
