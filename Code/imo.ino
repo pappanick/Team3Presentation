@@ -102,7 +102,15 @@ void loop() {
                 Serial.println("speed"); 
                 Serial.println(speed);
             }
-            if (celsius >= baselineTemp + 10 && celsius < baselineTemp + 20 )
+            if (celsius >= baselineTemp + 10 && celsius < baselineTemp + 20 ) 
+            {
+                analogWrite(motorpin,180); ///full max? what happens at {>=  baselineTemp + 20}?
+                Serial.println(" Temperature");
+                Serial.println(celsius);
+                Serial.println("speed");
+                Serial.println(speed);
+            }
+            if (celsius >=  baselineTemp + 20 )
             {
                 analogWrite(motorpin,255);
                 Serial.println(" Temperature");
