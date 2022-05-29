@@ -64,6 +64,26 @@
                             data: JSON.parse(reader.result)
                         }]
                     },
+                    options: {
+                        title: {
+                            display: true,
+                            text: 'Light activated window opening'
+                        },
+                        scales: {
+                            yAxes: [{
+                                scaleLabel: {
+                                    display: true,
+                                    labelString: "Angle of Window"
+                                }
+                            }],
+                            xAxes: [{
+                                scaleLabel: {
+                                    display: true,
+                                    labelString: "Light present"
+                                }
+                            }]
+                        }
+                    }
                 });
 
                 new Chart("LineChart", {
@@ -76,6 +96,26 @@
                             data: JSON.parse(reader.result)
                         }]
                     },
+                    options: {
+                        title: {
+                            display: true,
+                            text: 'Light activated window opening'
+                        },
+                        scales: {
+                            yAxes: [{
+                                scaleLabel: {
+                                    display: true,
+                                    labelString: "Angle of Window"
+                                }
+                            }],
+                            xAxes: [{
+                                scaleLabel: {
+                                    display: true,
+                                    labelString: "Light present"
+                                }
+                            }]
+                        }
+                    }
                 });
             };
 
