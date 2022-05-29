@@ -1,0 +1,37 @@
+
+Light sensitivity
+3, "Angle": 0
+Light sensitivity
+5, "Angle": 1
+Light sensitivity
+0, "Angle": 0
+Light sensitivity
+0, "Angle": 0
+Light sensitivity
+0, "Angle": 0
+Light sensitivity
+65, "Angle": 13
+Light sensitivity
+111, "Angle": 22
+Light sensitivity
+34, "Angle": 6
+Light sensitivity
+34, "Angle": 6
+Light sensitivity
+674, "Angle": 134
+Light sensitivity
+19, "Angle": 3
+Light sensitivity
+38, "Angle": 7
+Light sensitivity
+85, "Angle": 17
+Light sensitivity
+19, "Angle": 3
+Light sensitivity
+0, "Angle": 0
+Light sensitivity
+0, "Angle": 0
+Light sensitivity
+3, "Angle": 0
+Light sensitivity
+5
